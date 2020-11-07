@@ -2,9 +2,7 @@ import network
 import dataset_loader
 
 import torch
-import numpy as np
 import torch.optim as optim
-import torch.nn.functional as F
 import matplotlib.pyplot as plt
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
