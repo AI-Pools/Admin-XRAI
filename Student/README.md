@@ -50,6 +50,7 @@ En ajoutant des couches de convolution avant vos couches dense, l'information fo
 - Afficher un graph de l'evolution de votre loss
 - Afficher un graph de l'evolution de votre accuracy
 
+
 Une fois cela fait, soumetez votre code (Submit/) sur la plateforme.
 
 **Useful links:**
