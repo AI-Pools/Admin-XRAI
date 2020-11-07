@@ -32,15 +32,21 @@ N'ayez crainte, ils vous ont redigé un manuel sur les reseaux de neurones convo
 .
  Et le pooling dans tout ça ?
  
- 
+L'operation de pooling s'effectue typiqement apres  chaque layer convolutif.<br>
+Il permet de reduire de cout de calcule et d'eviter l'overfeeting en reduisant le dimensions de la data donnée en input.
 
+Pour cela on definit la taille du filtre (dans cette exemple 2\*2) ainsi que du stride qui represente de combient de pixel notre filtre va se deplacer apres chaque operations (dans cette exemple 2).<br>
+Le filtre prendra donc en input un set de 2\*2 pixels (qui corresepond à sa taille) et donnera en output la valeur maximal présenté dans ce cette.<br>
+Par exemple pour une matrice contenant `[[0, 1.9],[3.2, 1.6]]` l'output sera `3.2`.<br>
+<img src="./.img/convExplained3.png"/>
 
- 
-En bref, vous prenez un filtre (généralement 3x3 ou 5x5) et vous le passez sur l'image. En modifiant les pixels sous-jacents en fonction de la formule de ce filtre représenté par une matrice, vous pouvez effectuer des opérations telles que la détection des contours. Ainsi, par exemple, si vous examinez le lien ci-dessus, vous verrez que pour un filtre de 3x3 défini pour la détection de contours, la cellule du milieu est définie à 8 et tous ses voisins à -1. Dans ce cas, pour chaque pixel, vous allez multiplier sa valeur par 8, puis y soustraire la valeur de chaque voisin. En le faisant pour chaque pixel, vous obtiendrez une nouvelle image dont les contours sont améliorés.
-
-C'est parfait pour le computer vision, parce que souvent les features qui définissent un objet ne représentent qu'une partie de l'image entière, et que l'information dont on a besoin est beaucoup plus faible que tous les pixels de l'image. Ce concept nous permet alors de nous focaliser uniquement sur des features qui sont mises en valeur.
-
+Les convolutions liés aux pooling seront tres utils dans votre cas.
 En ajoutant des couches de convolution avant vos couches dense, l'information fournie aux dense layers est bien plus ciblée, et potentiellement plus précise.
+
+## Consignes:
+
+Construisez un model permetant d'identifié les patient atteind d'une pneumonie avec une accuracy minimal de 75%.
 
 **Useful links:**
 - Convolutional Neural Networks (CNNs) explained: https://www.youtube.com/watch?v=YRhxdVk_sIs
+- Max Pooling in Convolutional Neural Networks explained: https://www.youtube.com/watch?v=ZjM_XQa5s6s
