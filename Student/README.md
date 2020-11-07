@@ -46,6 +46,7 @@ En ajoutant des couches de convolution avant vos couches dense, l'information fo
 ## Consignes:
 
 Construisez un model permetant d'identifié les patient atteind d'une pneumonie avec une accuracy minimal de 75%.
+Une fois cela fait, soumetez votre code (Submit.py) sur la plateforme.
 
 **Useful links:**
 - Convolutional Neural Networks (CNNs) explained: https://www.youtube.com/watch?v=YRhxdVk_sIs
