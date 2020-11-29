@@ -54,5 +54,6 @@ En ajoutant des couches de convolution avant vos couches dense, l'information fo
 Une fois cela fait, soumetez votre code (Submit/) sur la plateforme.
 
 **Useful links:**
+- Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 - Convolutional Neural Networks (CNNs) explained: https://www.youtube.com/watch?v=YRhxdVk_sIs
 - Max Pooling in Convolutional Neural Networks explained: https://www.youtube.com/watch?v=ZjM_XQa5s6s
