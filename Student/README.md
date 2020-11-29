@@ -46,9 +46,9 @@ En ajoutant des couches de convolution avant vos couches dense, l'information fo
 ## Consignes:
 
 - Sauvegarder la dataset dans un fichier `.hdf5`
-- Construisez un model permetant d'identifié les patient atteind d'une pneumonie avec une accuracy minimal de 75%.
-- Afficher un graph de l'evolution de votre loss
-- Afficher un graph de l'evolution de votre accuracy
+- Construire un model permetant d'identifié les patients atteinds d'une pneumonie avec une accuracy minimal de 75%.
+- Afficher un graph de l'evolution de la loss
+- Afficher un graph de l'evolution de l'accuracy
 
 
 Une fois cela fait, soumetez votre code (Submit/) sur la plateforme.
