@@ -57,3 +57,4 @@ Une fois cela fait, soumetez votre code (Submit/) sur la plateforme.
 - Dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 - Convolutional Neural Networks (CNNs) explained: https://www.youtube.com/watch?v=YRhxdVk_sIs
 - Max Pooling in Convolutional Neural Networks explained: https://www.youtube.com/watch?v=ZjM_XQa5s6s
+- h5py: https://www.h5py.org
